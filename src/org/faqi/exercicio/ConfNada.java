@@ -7,7 +7,7 @@ public class ConfNada {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	 	
+	 Nadador n1 = new Nadador();
 
 	}
 
