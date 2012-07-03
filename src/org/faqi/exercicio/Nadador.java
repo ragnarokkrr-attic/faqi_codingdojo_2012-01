@@ -6,7 +6,8 @@ public class Nadador {
 	private int idade;
 	
 	public Nadador(String nome, int idade){
-		
+		this.nome = nome;
+		this.idade = idade;
 	}
 	
 	public String getNome(){
@@ -25,7 +26,7 @@ public class Nadador {
 	public String classicaModalidade(){
 		if(idade >= 5 && idade < 7){
 			return "infantil A";
-		}
+		}else if(idade >= 8)
 		return "String nao classificado.";
 	}
 }
